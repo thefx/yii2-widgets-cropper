@@ -1,7 +1,6 @@
 {
     "name": "thefx/yii2-widgets-cropper",
     "description": "",
-    "version": "1.0.0",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
     "license": "GPL-3.0+",
