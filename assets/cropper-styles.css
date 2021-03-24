@@ -1,0 +1,55 @@
+.btn-delete {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    color: #dd4b39;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px #4e4e4e;
+    cursor: pointer;
+}
+.btn-delete:hover {
+    color: #c9302c;
+}
+.thumbnail {
+    position: relative
+}
+.thumbnail .image img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+}
+.photo_preview {
+    height: 15rem;
+    width: 20rem;
+    float: left;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #d2d6dd;
+}
+.photo_preview img {
+    /*margin-top: 10px;*/
+    max-width: 200px;
+    max-height: 200px;
+}
+.cropper-img-container {
+    margin-bottom: 1rem;
+    max-height: 497px;
+    min-height: 200px;
+    background-color: #f7f7f7;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*.well .thumbnail {*/
+/*    width: 150px;*/
+/*    height: 150px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/

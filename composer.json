@@ -1,0 +1,27 @@
+{
+    "name": "thefx/yii2-widgets-cropper",
+    "description": "",
+    "version": "1.0.0",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "3FoX",
+            "email": "fenixq@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "~2.0.5",
+        "intervention/image": "^2.5"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "thefx\\widgetsCropper\\": ""
+        }
+    }
+}
