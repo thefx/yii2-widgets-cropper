@@ -192,11 +192,11 @@ class FileInputCropper extends InputWidget
 
     function modal($title, $w, $h)
     {
-        if ($title && isset($w) && isset($h)) {
+        if (isset($w, $h) && $title) {
             $text = '<i class="fa fa-crop"></i> Crop ' . $w . 'x' . $h;
             Modal::begin([
                 'title' => '<h3>' . $text . '<span class="' . $title . '-img-error pull-right" style="color:red;"></span></h3>',
-                'toggleButton' => ['label' => $text, 'class' => 'btn'],
+                'toggleButton' => ['label' => $text, 'class' => 'btn btn-default'],
                 'size' => 'modal-lg',
                 'options' => ['class' => ''],
 //                'footer' => '<div class="btn-group d-flex flex-nowrap docs-toggles" data-toggle="buttons">

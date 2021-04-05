@@ -11,13 +11,38 @@
     color: #c9302c;
 }
 .thumbnail {
-    position: relative
+    position: relative;
+    float: left !important;
+
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.thumbnail .image {
+    height: 100%;
+    background: #eee;
+    display: flex;
+    align-items: center;
 }
 .thumbnail .image img {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 200px;
     width: auto;
 }
+.thumbnail .btn-link {
+    position: absolute;
+    bottom: 9px;
+    right: 12px;
+    color: #fff !important;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px #4e4e4e;
+    cursor: pointer;
+}
+
 .photo_preview {
     height: 15rem;
     width: 20rem;
